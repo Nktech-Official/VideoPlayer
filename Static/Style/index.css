@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  width: 640px;
+  height: 264px;
+}
+
+#skip {
+  visibility: hidden;
+  height: 40px;
+  top: 90%;
+  left: 95%;
+  margin: -64px 0 0 -64px;
+  position: absolute;
+
+  width: 90px;
+  z-index: 1;
+
+  width: 90px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px dotted;
+}
+#skip:hover {
+  background-color: rgb(133, 235, 240);
+}
+#my-video {
+  position: absolute;
+  border: 1px dashed red;
+  width: 640px;
+  height: 264px;
+}
